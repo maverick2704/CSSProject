@@ -1,0 +1,47 @@
+.category{
+    margin: 1% 0%;
+    height: 11%;
+    width: 100%;
+    font-size: 70%;
+    font-weight: bold;
+}
+.category img{
+    padding-top: 2%;
+    transform: scale(0.7);
+    /* position: static; */
+}
+.category .flexcol:hover{
+    text-decoration: underline;
+}
+.category div{
+    margin: 1% 1% 
+}
+
+@media screen and (max-width:1000px) {
+    .category{
+        font-size: 55%;
+        margin: 3% 0%;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto auto auto auto;
+    } 
+    .category p{
+        transform: scale(1.2);
+    }
+    
+    
+}
+@media screen and (max-width:450px) {
+    .category{
+        margin: 10% 0%;
+        font-size: 55%;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto auto;
+    } 
+    .category p{
+        transform: scale(1.3);
+    }
+    
+
+}

@@ -1,0 +1,95 @@
+footer{
+    color: white;
+    background-color: rgb(33, 33, 33);
+    height: 100%;
+}
+.footdiv{
+    padding: 0% 5%;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+ 
+.footdiv a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+}
+.footdiv p{
+    font-size: smaller;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+.footdiv .greytext{
+    margin-bottom: 5%;
+}
+.footdiv a:hover{
+    text-decoration: underline;
+}
+
+.help{
+    position: relative;
+    top: -0.7em;
+}
+.consumerpolicy{
+    position: relative;
+    top: -0.7em;
+}
+.social{
+    position: relative;
+    top: -2em;
+}
+.address{
+    position: relative;
+    top: 0.9em;
+}
+
+@media screen and (max-width:1400px) {
+    .footdiv{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .footdiv{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .footdiv .greytext{
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:450px) {
+    .footdiv{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .footdiv .mail p{
+        font-size: 100%;
+    }
+    .footdiv .address p{
+        font-size: 100%;
+    }
+    .footdiv .greytext{
+        margin-top: 5%;
+        font-size: larger;
+    }
+    .footdiv a{
+        font-size: 100%;
+    }
+    
+    .help{
+        position: relative;
+        top: 0em;
+    }
+    
+    .social{
+        position: relative;
+        top: 0em;
+    }
+    
+    
+    
+    
+}

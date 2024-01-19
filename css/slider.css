@@ -1,0 +1,49 @@
+
+.carousel-control-prev{
+    background-color: gray;
+    position:absolute;
+    top:33%;
+    bottom:33%;
+    left:-3.5%;
+    transform:scaleX(0.3); 
+}
+
+.carousel-control-next{
+    background-color: grey;
+    position:absolute;
+    top:33%;
+    bottom:33%;
+    right:-3.5%;
+    transform:scaleX(0.3);
+}
+
+.banking img{
+    width:100%;
+}
+
+@media screen and (max-width:1000px) {
+    #carouselExampleAutoplaying{
+        margin: 5% 5%;
+        transform: scaleY(1.5);
+        transform: scaleX(1.2);
+    }
+    .banking{
+        transform: scaleY(2);
+        transform: scaleX(1.5);
+    }
+    
+}
+@media screen and (max-width:500px) {
+    #carouselExampleAutoplaying{
+        margin: 9% 5%;
+        transform: scale(1.2);
+    }
+    #carouselExampleAutoplaying button{
+        display: none;
+    }
+
+    .banking{
+        transform: scale(1.1);
+    }
+
+}

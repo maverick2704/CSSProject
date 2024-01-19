@@ -1,0 +1,201 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    background-color: white;
+    margin-left: 5%;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    right: 10%;
+}
+.search:hover{
+    border: 1.5px solid black;
+    border-radius: 25px;
+}
+.searchimg{
+    position: relative;
+    left: 3%;
+    transform: scale(1.3);
+}
+.searchbar{
+    /* padding: 0.5% 5%; */
+    padding-left: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width:99%;
+    height:100%;
+    font-size:100%;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* margin-right:5% */
+}
+
+
+.navbtns{
+    width: 40%;
+    /* background-color: red; */
+    position: relative;
+    right: 30px;
+}
+.navbtns .btns:hover{
+    text-decoration: underline;
+}
+
+.btns{
+    /* padding:0%; */
+    font-size: 90%;
+    font-weight: 300;
+    width: 30%;
+    height: 70%;
+    border: none;
+    outline: none;
+    background-color: rgb(40, 116, 240);
+    color: white;
+    
+    border-radius: 10px;
+}
+
+.smallicon{
+    margin: 0% 1%;
+    transform: scale(0.8);
+}
+
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1% 0%; */
+    width: 100%;
+    height:100%;
+    background-color: rgb(40, 116, 240);
+    
+}
+
+navbar .logo img{
+    height: 100%;
+        width: 60%;
+        margin: 0 5%;
+        padding: 0;
+        transform: scale(0.7);
+}
+.dropdown{
+    position: relative;
+    left: 10px;
+}
+navbar .logo{
+    height: 10%
+}
+header{
+    background-color: rgb(40, 116, 240);
+}
+@media screen and (max-width : 1000px) {
+    span{
+        display: none;
+    } 
+    /* navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .search{
+        /* background-color: red; */
+        margin-left: 5%;
+        height: 100%;
+        width: 90%;
+        /* position: relative;
+        right: 50px; */
+    }
+    navbar .logo img{
+        height: 100%;
+        width: 80%;
+        margin: 0 5%;
+        padding: 0;
+        position: relative;
+        right: 40px;
+    }
+
+   
+ }
+
+ @media screen and (max-width : 450px) {
+    navbar{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* position: relative;
+        left: 5%; */
+    }
+    navbar div{
+        margin: 1.5%;
+    }
+    #dots{
+        position: relative;
+        right: 500px;
+    }
+    .search{
+        position: relative;
+        right:0%;
+        
+        width: 100%;
+        
+    }
+    .searchbar{
+        position: relative;
+        right: 0%;
+        font-size: 100%;
+        font-weight: 300;
+        padding: 2% 0%;
+        width: 85%;
+    }
+    .dropdown-toggle{
+        position: relative;
+        right: 50px;
+    }
+
+    navbar .logo img {
+        height: 100%;
+        width: 80%;
+        margin: 0 5%;
+        padding: 0;
+        position: relative;
+        right: 0%;
+        transform: scale(1);
+    }
+    .logo{
+        width: 70%;
+        position: relative;
+        left: 4%;
+        margin: 8% 0;
+    }
+    
+    .navbtns div{
+        position: relative;
+        right: 80px;
+    }
+    .btns{
+        position: relative;
+        right: 25%;
+        margin: 20px;
+        /* transform: scale(); */
+    }
+    .smallicon{
+        transform: scale(1);
+    }
+    .searchimg{
+        transform: scale(1.5);
+        margin-right: 10%;
+    }
+    header{
+        padding: 0% 3%;
+        background-color: rgb(40, 116, 240);
+    }
+ }
+
